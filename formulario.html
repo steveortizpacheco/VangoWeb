@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Formulario</title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+    
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+    
+    <!-- Animation Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/favicon.png" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="javascript/html5shiv.js"></script>
+        <script src="javascript/respond.min.js"></script>
+    <![endif]-->
+</head> 
+                                 
+<body class="header-sticky">
+    <div class="loader">
+        <span class="loader1 block-loader"></span>
+        <span class="loader2 block-loader"></span>
+        <span class="loader3 block-loader"></span>
+    </div>
+    <div class="boxed">
+        
+        <!-- Wrap-slide -->
+        <div class="wrap-slider">
+            <!-- Header -->            
+            <header id="header" class="header clearfix"> 
+                <div class="header-wrap clearfix">
+                    <div id="logo" class="logo">
+                       <div class="contenedor_logo">
+                            <div class="contenido_logo">
+                                <div class="logo"><a href="#"><img src="images/logo.png" alt="viaje"></a></div>
+                            </div>      
+                        </div>
+                    </div><!-- /.logo -->
+                    <div class="nav-wrap">
+                        <div class="btn-menu">
+                            <span></span>
+                        </div><!-- //mobile menu button -->
+                    </div><!-- /.nav-wrap -->                                     
+                </div><!-- /.header-wrap --> 
+            </header><!-- /.header -->
+
+        </div> <!-- /.wrap-slider -->        
+
+        <section class="flat-row pad-top120px">
+            <div class="container">
+
+                <div class="row">
+                    <div class="flat-divider d70px"></div>
+                </div>
+
+                <div id="respond" class="comment-respond contact style2">
+                    <h4 class="title comment-title"><b style="font-size: 40px; line-height: 60px;">🖖</b></br>COTIZA TU VIAJE</h4>
+                    <form id="contactform" class="flat-contact-form style2 bg-dark height-small" method="post" action="./contact/contact-process.php">
+                        <div class="field clearfix">      
+                            <div class="wrap-type-input">
+                                              
+                                <div class="input-wrap name">
+                                     <h3 class="Texto_01"><i class="fas fa-user"></i> Nombre</h3>  
+                                    <input type="text" value="" tabindex="1" placeholder="Nombre / Apellido" name="subject" id="subject" required>
+                                </div>
+                                    
+                                <div class="input-wrap email">
+                                     <h3 class="Texto_01"><i class="fas fa-paper-plane"></i> Correo </h3> 
+                                    <input type="email" value="" tabindex="2" placeholder="Ejemplo@ejemplo.com" name="email" id="email" required>
+                                </div>
+                                <div class="input-wrap last Subject">
+                                    <h3 class="Texto_01"><i class="fas fa-phone"></i> Telefono </h3> 
+                                    <input type="text" value="" placeholder="( + 57 )" name="subject" id="subject" >
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="field clearfix">      
+                            <div class="wrap-type-input">                    
+                                <div class="input-wrap name">
+                                     <h3 class="Texto_01"><i class="fas fa-users"></i> Personas a transportar</h3>
+                                    <input type="text" value="" tabindex="1" placeholder="# de Personas" name="subject" id="subject" required>
+                                </div>
+                                <div class="input-wrap email">
+                                     <h3 class="Texto_01"><i class="fas fa-map-marker-alt"></i> Lugar de destino</h3>
+                                    <input type="text" value="" tabindex="2" placeholder="Destino" name="subject" id="subject" required>
+                                </div>
+                                <div class="input-wrap last Subject">
+                                     <h3 class="Texto_01"><i class="far fa-calendar-alt"></i> Fecha de salida</h3>
+                                    <input type="text" value="" placeholder=" AAAA / MM / DD" name="subject" id="subject" >
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="field clearfix">      
+                            <div class="wrap-type-input">                    
+                                <div class="input-wrap name">
+                                     <h3 class="Texto_01"><i class="fas fa-calendar-alt"></i> Fecha de regreso</h3>
+                                    <input type="text" value="" tabindex="1" placeholder="AAAA / MM / DD" name="subject" id="subject" required>
+                                </div>
+                                <div class="input-wrap email">
+                                     <h3 class="Texto_01"><i class="fas fa-clock"></i> Hora de salida</h3>
+                                    <input type="text" value="" tabindex="2" placeholder="00 : 00" name="subject" id="subject" required>
+                                </div>
+                                <div class="input-wrap last Subject">
+                                     <h3 class="Texto_01"><i class="fas fa-user"></i> Hora de llegada</h3>
+                                    <input type="text" value="" placeholder="00 : 00" name="subject" id="subject" >
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="textarea-wrap">
+                             <h3 class="Texto_01"><i class="fas fa-pencil-alt"></i> Mensaje</h3>
+                                <textarea class="type-input" tabindex="3" placeholder="Deja un mensaje" name="message" id="message-contact" required></textarea>
+                            </div>
+                         <div class="submit-wrap">
+                            <button class="flat-button bg-theme">ENVIAR</button>
+                        </div>
+                        
+                    </form><!-- /.comment-form -->                     
+                </div><!-- /#respond -->
+            </div><!-- /.container -->   
+        </section>
+
+    
+         <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-widgets margin_top">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-md-3">  
+                            <div class="widget widget-text">
+                                <h4 class="widget-title">Nos encuentras en</h4>
+                                <div class="textwidget">                                
+                                </div><!-- /.textwidget -->
+                                <ul class="unstyled">
+                                    <li class="address">Las Américas #50-15, Bogotá, Cundinamarca</li>
+                                    <li class="mail"><a href="#">comunicaciones@vango.com.co</a></li>
+                                    <li class="phone"><a href="#">3123456789</a></li>  
+                                </ul> 
+
+                            </div><!-- /.widget -->      
+                        </div><!-- /.col-md-3 --> 
+
+                         <div class="col-md-3">  
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">Ayuda</h4>
+                                <ul class="unstyled">
+                                    <li><a href="#">Centro de ayuda</a></li>
+                                    <li><a href="#">Preguntas frecuentes</a></li>
+                                    <li><a href="#">Política Tratamiento de Datos</a></li>
+                                    <li><a href="#">Aplican terminos y condiciones</a></li>
+                                </ul>
+                            </div>  
+                        </div><!-- /.col-md-3 -->
+
+                       <div class="col-md-3">  
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">información</h4>
+                                <ul class="unstyled">
+                                    <li><a href="#">¿Quienes Somos?</a></li>
+                                    <li><a href="#">¿Comó Funciona?</a></li>
+                                    <li><a href="#">Eventos</a></li>
+                                    <li><a href="#">Empresas</a></li> 
+                                    <li><a href="#">Contactos</a></li>
+                                </ul>
+                            </div>  
+                        </div><!-- /.col-md-3 -->
+
+                       <div class="col-md-3">  
+                            <div class="widget widget-text">
+                                <img src="images/logo_footer.png" class="logo_footer" alt="viaje">
+                                <div class="textwidget">                                
+                                    <p>Se crea al ver la necesesidad de los ciudadanos por un transporte que sea: seguro inteligente y cómodo.</p>
+                                </div><!-- /.textwidget -->
+                                <ul class="unstyled">
+                                    <li><a href="#"> <img src="images/app_footer/appstore.svg" style="width: 150px; margin-left: 0px; margin-bottom: 10px;" alt="viaje"></a></li>
+                                    <li><a href="#"> <img src="images/app_footer/playstore.png" style="width: 150px; margin-left: 0px; margin-bottom: 10px;" alt="viaje"></a></li>
+                                </ul>
+                            </div><!-- /.widget -->      
+                        </div><!-- /.col-md-3 --> 
+
+                    </div><!-- /.row -->    
+                </div><!-- /.container -->
+            </div><!-- /.footer-widgets -->
+        </footer>
+ <!-- Bottom -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       <!--<div>
+                        <div style="width: 100%; height: 1px; background-color: #fff;">
+                            
+                        </div>-->
+                           <div>
+                               <ul class="flat-socials">
+                                        <li class="facebook">
+                                            <a href="#"><i class="fab fa-facebook-f" style="padding-left: 16px;"></i></a>
+                                        </li>
+                                        <li class="twitter">
+                                            <a href="#"><i class="fab fa-instagram" style="padding-left: 14px;"></i></a>
+                                        </li>
+                                        <li class="instagram">
+                                            <a href="#"><i class="fab fa-youtube" style="padding-left: 11px;"></i></a>
+                                        </li>
+                                </ul>
+                           </div>
+                       </div>
+                        <div class="copyright"> 
+                            <p>© 2020 Vango colombia. Todos los derechos reservados.
+                            </p>
+                        </div>
+
+                        <!-- Go Top -->
+                        <a class="go-top-v1"> <i class="fa fa-arrow-up"></i>  &nbsp;volver arriba</a>                   
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div>
+        
+        <!-- Go Top -->
+        <a class="go-top">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>   
+
+        
+        <!-- Javascript -->
+        <script type="text/javascript" src="javascript/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="javascript/jquery.easing.js"></script>
+        <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>    
+        <script type="text/javascript" src="javascript/jquery.tweet.min.js"></script>   
+        <script type="text/javascript" src="javascript/jquery.cookie.js"></script>    
+        <script type="text/javascript" src="javascript/jquery.fitvids.js"></script>    
+        <script type="text/javascript" src="javascript/parallax.js"></script>        
+        <script type="text/javascript" src="javascript/jquery-validate.js"></script>        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false">
+        </script>
+        <script type="text/javascript" src="javascript/gmap3.min.js"></script>   
+        <script type="text/javascript" src="javascript/main.js"></script>        
+    </div> <!-- /.boxed -->
+</body>
+</html>
