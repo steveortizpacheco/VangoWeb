@@ -105,6 +105,9 @@
   position: relative;
   min-height: 1px;
   float: left;
+  width: calc(250px * 14);
+  display: flex;
+  animation: scroll 40s infinite linear;
   -webkit-backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -112,6 +115,15 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  
+}
+@keyframes scroll{
+0% {
+  transform: translateX(0);
+}
+100% {
+  transform: translateX(calc(-250px * 7));
+}
 }
 .owl-carousel .owl-item img {
   display: inline-block;
