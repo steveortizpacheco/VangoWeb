@@ -26,13 +26,151 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.texto_tarjeta_negocio{
+		width: 88% !important;
+padding-top: 168px !important;
+position: absolute !important;
+padding-left: 22px !important;
+color: #027A69 !important;
+	}
+	.texto_negocio{
+		width: 100%; float: right;
+		padding-top: 220px;
+	}
+	.color_h3_8{
+		padding-top: 193px;
+        padding-right: 0px;
+	}
+	.color_h3_6 {
+		color: #666 !important;
+		padding-top: 70px;
+		padding-right: 0px;
+		padding-left: 0px;
+		font-size: 20px !important;
+		text-align: left !important;
+	}
+	.color_h3_final {
+		color: #B41642 !important;
+		padding-top: 40px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.color_h3 {
+		color: #B41642 !important;
+		font-size: 20px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+		padding-bottom: 40px;
+		padding-top: 20px;
+	}
+	.tamano_icon{
+		font-size: 40px;
+	}
+	.top_texto{
+		padding-top: 120px;
+	}
+	.textos_artista{
+		width: 92%;
+	}
+	.color_h3_7 {
+		
+		padding-top: 0px;
+		
+	}
+	.texto_por_mas {
+		width: 100%;
+	}
+	.texto_2020 {
+		line-height: 40px;
+		width: 80%;
+	}
+	.fondo_imagen {
+		height: 305px;
+		background-repeat: no-repeat !important;
+	}
+	.contenido_cinco {
+		background-color: #fff;
+		border-radius: 50px;
+		height: 311px;
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+	}
+	.texto_tarjeta_amarilla {
+		width: 70%;
+		padding-top: 232px;
+		position: absolute;
+		padding-left: 0px;
+		color: #B41642;
+	}
+	.video {
+		width: 100%;
+		position: relative;
+		border: 4px solid #fff;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.texto_movilidad {
+		text-align: center;
+		line-height: 40px;
+		padding-top: 10px;
+	}
+	.icono_texto{
+		font-size: 48px;
+	}
+	.texto_cuadro {
+		font-style: normal;
+		font-family: 'Montserrat',sans-serif;
+		font-size: 23px;
+		color: #FAB841;
+		font-weight: 500;
+	}
+	.galeria_contenido {
+		width: 100%;
+		height: 706px;
+		margin-top: 20px;
+	}
+	.texto_parchado {
+		width: 100%;
+		float: none;
+	}
+	.color_h3_5 {
+		
+		padding-top: 3px;
+		padding-right: 0px;
+		
+	}
+	.lineas_boton {
+		position: absolute;
+		top: -18px;
+		right: 4px;
+	}
+	.icono_boton{
+		font-size: 0px;
+		display:none;
+	}
+	.boton_cotizar {
+		height: 80px;
+		width: 80px;
+		background-color: #fff;
+		border: 4px solid #FAB841;
+		box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+		position: fixed;
+		border-radius: 50%;
+		top: 27px;
+		right: 20px;
+		text-align: center;
+		line-height: 1.3;
+		font-size: 10px;
+		padding: 5px 9px;
+		font-weight: 600;
+		color: #FAB841;
+	}
 	.bottom_contenido{
-	
 		font-size: 12px;
 		text-align: center;
 		padding-left: 12px;
 		padding-right: 12px;
-	
 	}
 	.bottom{
 		margin-left: 30px;
@@ -81,7 +219,7 @@
 		width: 100%;
 		height: 1147px;
 		padding: 0px;
-		margin-top: 422px;
+		margin-top: 852px;
 	}
 	.espacio_tarjetas{
 		width: 100%; height:0px;
@@ -120,8 +258,14 @@
 	.borde_slide_3 {
 		border: 2px dashed #e5e5e5;
 		padding: 8px 8px 10px 8px;
-		border-radius: 106px;
-		height: 444px;
+		border-radius: 98px;
+		height: 439px;
+	}
+	.borde_slide_7 {
+		border: 2px dashed #e5e5e5;
+        padding: 8px 8px 10px 8px;
+        border-radius: 58px;
+        height: 339px;
 	}
 	.contenido_uno {
 		background-color: #fff;
@@ -146,7 +290,7 @@
 		font-size: 18px;
 		line-height: 1.2;
 		font-weight: 600;
-		width: 60%;
+		width: 80%;
 		color: #f60540;
 	}
 	.contenedor_uno {
@@ -159,8 +303,8 @@
 		font-size: 40px;
 	}
 	h2 {
-		font-size: 29px;
-		line-height: 35px;
+		font-size: 24px;
+		line-height: 25px;
 	}
 	.margin_top_01{
 		margin-top:0px;
@@ -177,9 +321,9 @@
 		padding-top: 80px;
 	}
 	
-	.bottom{
+	/*.bottom{
 		width: 77%;
-	}
+	}*/
 	#mainnav-mobi ul li {
 		margin: 25px;
 		position: relative;

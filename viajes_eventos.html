@@ -5,7 +5,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Vango template</title>
+    <title>Vango</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -50,7 +50,7 @@
     <![endif]-->
 </head>
 <body class="header-sticky home home-boxed">
-    <div class="boxed">
+    <div   ss="boxed">
     <div class="loader">
         <span class="loader1 block-loader"></span>
         <span class="loader2 block-loader"></span>
@@ -58,13 +58,12 @@
     </div>    
         <!-- Wrap-slide -->
         <div class="wrap-slider">
-            <!-- Header -->            
             <header id="header" class="header clearfix"> 
                 <div class="header-wrap clearfix">
                     <div id="logo" class="logo">
                        <div class="contenedor_logo">
                             <div class="contenido_logo">
-                                <div class="logo"><a href="#"><img src="images/logo.png" alt="viaje"></a></div>
+                                <div class="logo"><a href="index.html"><img src="images/logo.png" class="padding" alt="viaje"></a></div>
                             </div>      
                         </div>
                     </div><!-- /.logo -->
@@ -73,16 +72,17 @@
                             <span></span>
                         </div><!-- //mobile menu button -->
 
-                        <nav id="mainnav" class="mainnav menu_home">
-                           <ul class="menu"> 
+                        <nav id="mainnav" class="mainnav menu_home flex">
+                            <ul class="menu padding-top"> 
                                 <!--<li class="home"><a href="index.html">Inicio</a></li>-->
-                                <li><a href="#">¿Quienes Somos?</a></li> 
-                                <li><a href="#">Movilidad compartida</a></li> 
-                                <li class="home"><a href="#">Viajes y eventos</a></li>
-                                <li><a href="#">Empresas</a></li>
-                                <li><a href="#">Contáctanos</a></li>
-                                 <a class="flat-btn btn-color btn-radius btn-normal blue" href="#">DESCARGAR</a>
+                                <li><a href="quienes_somos.html">¿Quienes Somos?</a></li> 
+                                <li><a href="como_funciona.html">Movilidad compartida</a></li> 
+                                <li><a href="viajes_eventos.html">Viajes y eventos</a></li>
+                                <li><a href="empresas.html">Empresas</a></li>
+                                <li><a href="contactos.html ">Contáctanos</a></li>
                             </ul><!-- /.menu -->
+                            <div class="descargar"><a class="flat-btn btn-color btn-radius btn-normal blue" href="https://play.google.com/store/apps/details?id=com.vango.usuario&hl=es">DESCARGAR</a></div>
+                            
 
                         </nav><!-- /.mainnav -->
                     </div><!-- /.nav-wrap -->                                     
@@ -91,26 +91,24 @@
             <!-- Page title -->
         </div> <!-- /.wrap-slider -->
          <!-- Iconbox -->
-
-
-        <section class="flat-row flat-about">
+        <section class=" flat-about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="flat-title" style="margin-top: 80px;">
-                            <h2 class="color_h2_2">VIAJES</br><b>Y EVENTOS</b> <span style="font-size: 80px;">😎</span></h2>
+                        <div class="flat-title margin_top_titulo">
+                            <h2 class="color_h2_2">VIAJES</br><b>Y EVENTOS</b> <span class="icono_texto">😎</span></h2>
                         </div><!-- /.flat-title -->
                         <img src="images/logo_03.png" alt="images">
                          <!--<h3 class="color_h3_4">¿Cómo funciona Vango?</h3>-->
                          <div>
                          	<div style="position: absolute;"><img src="images/Imagen_parchado_01.png" alt="images"></div>
-                         	<div style="width: 40%; float: right">
-                         		<h3 class="color_h3_5">
-                                                Vango Parchado nace para ser parte de los mejores momentos 
+                         	<div class="texto_parchado">
+                         		<h3 class="color_h3_8">
+                                            <b style="color: #B41642;">Nace</b> para ser parte de los <b style="color: #B41642;">mejores momentos</b> 
                                         </h3>
                                         <blockquote class="alignleft" style="margin-top: 30px;">
                                         <div class="wrap-text">
-                                            <div style="font-style: normal; font-family:'Montserrat',sans-serif; font-size: 28px;">
+                                            <div class="texto_cuadro">
                                            Entre amigos,</br> familia y más.</div>
                                             
                                         </div>
@@ -122,11 +120,11 @@
             </div><!-- /.container -->   
         </section>
 
-        <section class="flat-row flat-about">
+        <section class=" flat-about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div style="width: 100%; margin: 0 auto; height: 795px;">
+                        <div class="galeria_contenido">
                         	<div class="flat-tabs about-us" data-effect ="fadeIn">
                             <div class="content-tab">
                                 <div class="content-inner">
@@ -149,20 +147,22 @@
                                         </div><!-- /.flat-title -->
                                     </div><!-- /.text-tab --> 
                                     <div class="images-tab">
-                                         <h2 class="color_h2_2" style="text-align: center;line-height: 40px;padding-top: 250px;">Es un servicio de movilidad </br>por grupo específico de personas</b></h2>
+                                         <h2 class="color_h2_2 texto_movilidad">Es un servicio de movilidad </br>por grupo específico de personas</b></h2>
                                         
                                     </div>
                                 </div><!-- /.content-inner -->
                             </div><!-- /.content-tab -->
                         </div><!-- /.flat-tabs --> 
                         </div>
-
+                         <div class="video">
+                            <iframe class="esdacode_video" src="https://www.youtube.com/embed/WsJ9dzfcZ84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         </div>
                          <div class="fondo_imagen">
                             <div class="featured-post">
-                            	<div class="texto_tarjeta" style="    width: 40%;padding-top: 140px;position: absolute;padding-left: 110px; color: #fff;"><p>Eventos o paseos</br> dentro de bogotá </br>y demás ciudades
+                            	<div class="texto_tarjeta"><p class="texto_tarjeta_amarilla"><b>Eventos o paseos</b> dentro de bogotá y demás <b>ciudades</b>.
                             	</p></div>
                                <div class="contenedor_uno">
-                                   <div class="borde_slide_3">
+                                   <div class="borde_slide_7">
                                     <div class="contenido_cinco">
                                     	<img src="images/Imagen_parchado_02.png" class="imagen_tarjeta"  alt="image">
                                     </div>
@@ -178,10 +178,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                    	<div class="flat-title" style="margin-top: 80px;">
-                            <h2 class="color_h2_2" style="line-height: 40px;">DECIDIMOS </br><b>AVENTURARNOS EN EL MUNDO </b></br>DE LOS EVENTOS DESDE EL INICIO DE 2020</h2>
-                           
-                            <h3 class="color_h3_7">Para contagiarlos de el espíritu de Vango parchado, </br>Hemos sido los partners para dos grandes eventos </br><b style="font-size: 30px; color: red;">y vamos por mas!</b></h3>
+                    	<div class="flat-title" style="margin-top: 180px;">
+                            <h2 class="color_h2_2 texto_2020">DECIDIMOS <b>AVENTURARNOS EN EL MUNDO</b> DE LOS EVENTOS DESDE EL <b>INICIO DE 2020</b></h2>
+                            <h3 class="color_h3_7 texto_por_mas">Para contagiarlos de el espíritu de <b style=" color:#FAB841;">Vango parchado</b>, Hemos sido los partners para dos grandes eventos y <b style=" color:#FAB841;">vamos por mas!</b></h3>
+                            <div class="video">
+                                <iframe class="esdacode_video" src="https://www.youtube.com/embed/WsJ9dzfcZ84" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                             </div>
                         </div><!-- /.flat-title -->
                        <div class="flat-tabs about-us" data-effect ="fadeIn">
                             <div class="content-tab">
@@ -200,127 +202,153 @@
                                                 </ul>
                                             </div>
                                         </div><!-- /.feature-post -->
-                                            
-                                        </div><!-- /.flat-title -->
+                                    </div><!-- /.flat-title -->
                                     </div><!-- /.text-tab --> 
                                     <div class="images-tab">
-                                        <h3 class="color_h3_7">Gracias a Dia de Rock Col</h3>
-                                        
-                                         <img src="images/logo_rock.png" alt="images">
-                                        
+                                        <h3 class="color_h3_7">En <b>día de rock</b> pudimos transportar a más de 6000 rockeros que fueron a disfrutar del concierto de rock más grande de Colombia, además de eso pudimos transportar a unas de las bandas más emblemáticas del género como:</h3>
+                                        <p class="textos_artista">Kraken, <b>Don Tetto</b>, Superlitio y <b>más!</b></p>
+                                        <div style="width: 100%; display: flex;">
+                                            <img src="images/logo_rock.png" style="margin-left: auto; margin-right: auto;" alt="images">
+                                        </div>
                                     </div>
                                 </div><!-- /.content-inner -->
                             </div><!-- /.content-tab -->
-                        </div><!-- /.flat-tabs --> 
+                        </div><!-- /.flat-tabs -->
+                        <div class="flat-tabs about-us" data-effect ="fadeIn">
+                            <div class="content-tab">
+                                <div class="content-inner">
+                                    <div class="images-tab">
+                                        <h3 class="color_h3_7">En suelta como gabete pudimos ofrecer el transporte VIP y privado para cada grupo de asistentes, mientras que transportabamos los grupos de bailarines y los grandes djs del evento.
+                                        </h3>
+                                        <div style="width: 100%; display: flex;">
+                                            <img src="images/logo_gabete.png" style="margin-left: auto; margin-right: auto;" alt="images">
+                                        </div>
+                                    </div>
+                                    <div class="text-tab">
+                                        <div class="flat-title">
+                                            <div class="feature-post flat-blog-slider slider">
+                                            <div class="flexslider">
+                                                <ul class="slides">
+                                                    <li>
+                                                        <a href="blog-single-sidebarleft.html"><img src="images/foto_evento_01.png" alt="image"></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-single-sidebarleft.html"><img src="images/foto_evento_02.png" alt="image"></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- /.feature-post -->
+                                    </div><!-- /.flat-title -->
+                                    </div><!-- /.text-tab --> 
+                                </div><!-- /.content-inner -->
+                            </div><!-- /.content-tab -->
+                        </div><!-- /.flat-tabs -->  
                     </div><!-- /col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->   
-        </section>
-        <a href="">
-        	<div style="width: 150px; width: 150px; background-color:#fff;border:6px solid #FAB841;box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); position: fixed; border-radius: 50%; top:130px; right: 20px; text-align: center; font-size: 15px; padding: 30px 13px; font-weight: 600;color:#FAB841;"><b style="font-size: 40px;">👇</b></br><b>Cotiza</b> tu viaje</br><b style="color: #B41642;">Aquí</b>
-        	<img src="images/lineas_01.png" alt="image" style="position: absolute; top:-31px; right: 9px;">	
+        </section> 
+        <a href="formulario.html" class="boton_cotizar">
+        	<div><b class="icono_boton">👇</b></br><b>Cotiza</b> tu viaje</br><b style="color: #B41642;">Aquí</b>
+        	<img src="images/lineas_01.png" alt="image" class="lineas_boton">	
         </div>
 
         </a>
         
          
-          <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-widgets margin_top">
-                <div class="container">
-                    <div class="row"> 
-                        <div class="col-md-3">  
-                            <div class="widget widget-text">
-                                <h4 class="widget-title">Nos encuentras en</h4>
-                                <div class="textwidget">                                
-                                    <p>Centro Comercial Carrera donde nuestros visitantes y colaboradores siempre se sientan como en casa.</p>
-                                </div><!-- /.textwidget -->
-                                <ul class="unstyled">
-                                    <li class="address">Las Américas #50-15, Bogotá, Cundinamarca</li>
-                                    <li class="mail"><a href="#">comunicaciones@vango.com.co</a></li>
-                                    <li class="phone"><a href="#">3123456789</a></li>  
-                                </ul> 
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-widgets margin_top">
+        <div class="container">
+            <div class="row"> 
+                <div class="col-md-3">  
+                    <div class="widget widget-text">
+                        <h4 class="widget-title">Nos encuentras en</h4>
+                        <div class="textwidget">                                
+                        </div><!-- /.textwidget -->
+                        <ul class="unstyled">
+                            <li class="address">Las Américas #50-15, Bogotá, Cundinamarca</li>
+                            <li class="mail"><a href="#">comunicaciones@vango.com.co</a></li>
+                            <li class="phone"><a href="#">3123456789</a></li>  
+                        </ul> 
 
-                            </div><!-- /.widget -->      
-                        </div><!-- /.col-md-3 --> 
+                    </div><!-- /.widget -->      
+                </div><!-- /.col-md-3 --> 
 
-                         <div class="col-md-3">  
-                            <div class="widget widget-categories">
-                                <h4 class="widget-title">Ayuda</h4>
-                                <ul class="unstyled">
-                                    <li><a href="#">Centro de ayuda</a></li>
-                                    <li><a href="#">Preguntas frecuentes</a></li>
-                                    <li><a href="#">Política Tratamiento de Datos</a></li>
-                                    <li><a href="#">Aplican terminos y condiciones</a></li>
-                                </ul>
-                            </div>  
-                        </div><!-- /.col-md-3 -->
+                 <div class="col-md-3">  
+                    <div class="widget widget-categories">
+                        <h4 class="widget-title">Ayuda</h4>
+                        <ul class="unstyled">
+                            <li><a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                            <li><a href="tratamiento_datos.html">Política Tratamiento de Datos</a></li>
+                            <li><a href="termino_condiciones.html">Aplican terminos y condiciones</a></li>
+                        </ul>
+                    </div>  
+                </div><!-- /.col-md-3 -->
 
-                       <div class="col-md-3">  
-                            <div class="widget widget-categories">
-                                <h4 class="widget-title">información</h4>
-                                <ul class="unstyled">
-                                    <li><a href="#">¿Quienes Somos?</a></li>
-                                    <li><a href="#">¿Comó Funciona?</a></li>
-                                    <li><a href="#">Eventos</a></li>
-                                    <li><a href="#">Empresas</a></li> 
-                                    <li><a href="#">Contactos</a></li>
-                                </ul>
-                            </div>  
-                        </div><!-- /.col-md-3 -->
+               <div class="col-md-3">  
+                    <div class="widget widget-categories">
+                        <h4 class="widget-title">información</h4>
+                        <ul class="unstyled">
+                            <li><a href="quienes_somos.html">¿Quienes Somos?</a></li>
+                            <li><a href="como_funciona.html">¿Comó Funciona?</a></li>
+                            <li><a href="viajes_eventos.html">Viajes y Eventos</a></li>
+                            <li><a href="empresas.html">Empresas</a></li> 
+                            <li><a href="contactos.html">Contactos</a></li>
+                        </ul>
+                    </div>  
+                </div><!-- /.col-md-3 -->
 
-                       <div class="col-md-3">  
-                            <div class="widget widget-text">
-                                <img src="images/logo_footer.png" class="logo_footer" alt="viaje">
-                                <div class="textwidget">                                
-                                    <p>Se crea al ver la necesesidad de los ciudadanos por un transporte que sea: seguro inteligente y cómodo.</p>
-                                </div><!-- /.textwidget -->
-                                <ul class="unstyled">
-                                    <li><a href="#"> <img src="images/app_footer/appstore.svg" style="width: 150px; margin-left: 0px; margin-bottom: 10px;" alt="viaje"></a></li>
-                                    <li><a href="#"> <img src="images/app_footer/playstore.png" style="width: 150px; margin-left: 0px; margin-bottom: 10px;" alt="viaje"></a></li>
-                                </ul>
-                            </div><!-- /.widget -->      
-                        </div><!-- /.col-md-3 --> 
+               <div class="col-md-3">  
+                    <div class="widget widget-text">
+                        <img src="images/logo_footer.png" class="logo_footer" alt="viaje">
+                        <div class="textwidget">                                
+                            <p>Se crea al ver la necesesidad de los ciudadanos por un transporte que sea: seguro inteligente y cómodo.</p>
+                        </div><!-- /.textwidget -->
+                        <ul class="unstyled">
+                            <li><a href="https://play.google.com/store/apps/details?id=com.vango.usuario&hl=es"> <img src="images/app_footer/playstore.png" style="width: 150px; margin-left: 0px; margin-bottom: 10px;" alt="viaje"></a></li>
+                        </ul>
+                    </div><!-- /.widget -->      
+                </div><!-- /.col-md-3 --> 
 
-                    </div><!-- /.row -->    
-                </div><!-- /.container -->
-            </div><!-- /.footer-widgets -->
-        </footer>
+            </div><!-- /.row -->    
+        </div><!-- /.container -->
+    </div><!-- /.footer-widgets -->
+</footer>
 
-        <!-- Bottom -->
-        <div class="bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                       <!--<div>
-                        <div style="width: 100%; height: 1px; background-color: #fff;">
-                            
-                        </div>-->
-                           <div>
-                               <ul class="flat-socials">
-                                        <li class="facebook">
-                                            <a href="#"><i class="fab fa-facebook-f" style="padding-left: 16px;"></i></a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="#"><i class="fab fa-instagram" style="padding-left: 14px;"></i></a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="#"><i class="fab fa-youtube" style="padding-left: 11px;"></i></a>
-                                        </li>
-                                </ul>
-                           </div>
-                       </div>
-                        <div class="copyright"> 
-                            <p>© 2020 Vango colombia. Todos los derechos reservados.
-                            </p>
-                        </div>
+<!-- Bottom -->
+<div class="bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+               <!--<div>
+                <div style="width: 100%; height: 1px; background-color: #fff;">
+                    
+                </div>-->
+                   <div>
+                       <ul class="flat-socials">
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/vangocolombia"><i class="fab fa-facebook-f" style="padding-left: 16px;"></i></a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="https://www.instagram.com/vango_col/"><i class="fab fa-instagram" style="padding-left: 14px;"></i></a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="https://www.youtube.com/channel/UC6vFx88f95fKG9fT2SHVAEg"><i class="fab fa-youtube" style="padding-left: 11px;"></i></a>
+                                </li>
+                        </ul>
+                   </div>
+               </div>
+                <div class="copyright bottom_contenido"> 
+                    <p>© 2020 Vango colombia. Todos los derechos reservados.
+                    </p>
+                </div>
 
-                        <!-- Go Top -->
-                        <a class="go-top-v1"> <i class="fa fa-arrow-up"></i>  &nbsp;volver arriba</a>                   
-                    </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div>
+                <!-- Go Top -->
+                <a class="go-top-v1 color_amarillo"> <i class="fa fa-arrow-up"></i>  &nbsp;volver arriba</a>                   
+            </div><!-- /.col-md-12 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</div>
         
         <!-- Go Top -->
         <a class="go-top">

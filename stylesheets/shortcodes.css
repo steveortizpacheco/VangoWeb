@@ -1646,32 +1646,36 @@
 /* Flat accordion
 -------------------------------------------------------------- */
 .flat-accordion .flat-toggle {
-    margin: 0 0 5px;
+    margin: 0 0 40px;
 }
 
 .flat-accordion .toggle-title {
     cursor: pointer;
     font-family: "montserrat",sans-serif;
-    color: #000;
-    background: #dddddd;
+    color: #666;
+    font-weight: 600!important;
+    background: #fff;
     padding: 13px 20px 13px 25px; 
     border-radius: 2px;
+    border-radius: 28px;
     position: relative;
     font-size: 14px;
     line-height: 30px;
+    box-shadow: 1px 2px 3px rgba(142, 162, 189, 0.2) !important;
 }
 
 .flat-accordion .toggle-title.active {
     background: #edb820;  
     font-family: "montserrat",sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 30px;
-    color: #000;
+    color: #fff;
+    font-weight: 600;
 }
 
 .flat-accordion .toggle-title.active:after,
 .flat-accordion .toggle-title:after {
-    color: #333;
+    
     font-size: 20px;
     position: absolute;
     right: 25px;
@@ -1686,14 +1690,16 @@
 
 .flat-accordion .toggle-title:after {
     content: "+";
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .flat-accordion .toggle-content {
     display: none;
-    border-radius: 2px;
-    padding: 25px;
+    border-radius: 76px;
+    padding: 45px;
     overflow: hidden;
+    border: 2px dashed #e3e3e3;
+    margin-top: -31px;
 }
 
 /* Flat client
@@ -1789,13 +1795,13 @@
 }
 
 .flat-tabs .content-tab .text-tab {
-    width: 59.82905982905983%;
+    width: 50%;
     float: left;
     padding-right: 50px;
 }
 
 .flat-tabs .content-tab .images-tab {
-    width: 40.17094017094017%;
+    width: 47%;
     float: left;
 }
 
