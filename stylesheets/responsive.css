@@ -26,6 +26,11 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.color_h2_4 {
+		color: #fff !important;
+		font-size: 22px !important;
+		line-height: 24px;
+	}
 	.texto_tarjeta_negocio{
 		width: 88% !important;
 padding-top: 168px !important;
@@ -300,11 +305,11 @@ color: #027A69 !important;
 		padding: 0px;
 	}
 	.icono_wasap{
-		font-size: 40px;
+		font-size: 32px;
 	}
 	h2 {
-		font-size: 24px;
-		line-height: 25px;
+		font-size: 18px;
+		line-height: 17px;
 	}
 	.margin_top_01{
 		margin-top:0px;
@@ -826,7 +831,7 @@ color: #027A69 !important;
 	}
 
 	.flat-row.pad-top120px {
-		padding-top: 50px;
+		padding-top: 100px;
 	}
 
 	.flat-row.flat-teammeber {
