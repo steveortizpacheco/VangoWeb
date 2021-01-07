@@ -5,7 +5,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Tratamiento de datos</title>
+    <title>Formulario</title>
 
     <meta name="author" content="themesflat.com">
 
@@ -79,58 +79,41 @@
                 </div>
 
                 <div id="respond" class="comment-respond contact style2">
-                    <h4 class="title comment-title" style="line-height: 1.4;">TRATAMIENTO DE DATOS PERSONALES</h4>
-                    <p class="arriba_abajo">De conformidad con lo contenido en la Ley 1581 de 2012, la Política de Tratamiento de
-                        datos de VIAJES IMPERIAL S.A.S con nit 830.087.404-7 “Vango”, y demás normas
-                        concordantes, a través de las cuales se establecen disposiciones generales en materia de
-                        protección de datos personales y se regula el tratamiento de la información que contenga
-                        datos personales, me permito declarar de manera expresa que:</p>
-                    <p class="arriba_abajo">Autorizo de manera libre y voluntaria a “Vango”, para que realice la recolección,
-                        almacenamiento, uso, circulación, supresión, y utilización de sus datos especialmente su
-                        número de identificación ciudadana que puede ir incluido en el formato único de extracto de
-                        contrato FUEC, necesario para CUMPLIR EL decreto 431 de 2017 del ministerio de
-                        transporte que rige el transporte especial, así como uso de datos para mercadeo y
-                        comunicación al cliente, y en general. El tratamiento de los datos personales que he
-                        procedido a entregar o que entregaré, en virtud de las relaciones legales, contractuales,
-                        comerciales y/o de cualquier otra que surja, en desarrollo y ejecución de los fines descritos
-                        en el presente documento y la Política de Tratamiento de Datos de “Vango” la cual se que
-                        puede ser consultada en:</br>
-                        <a href="">file:///C:/Users/VALENTINA%20HERNANDEZ/Downloads/Terminos%20y%20condiciones%
-                            20pagina%20web%20Vango.pdf</a>
-                    </p>
-                    <p class="arriba_abajo">Dicha autorización se extiende durante la totalidad del tiempo en el que pueda llegar
-                        consolidarse un vínculo o este persista por cualquier circunstancia con “Vango”, y con
-                        posterioridad al finiquito del mismo, siempre que tal tratamiento se encuentre relacionado
-                        con las finalidades para las cuales los datos personales, fueron inicialmente suministrados.
-                        Igualmente, dicha información será almacenada y suministrada a las autoridades
-                        administrativas y judiciales cuando estos los requieran. LOS DATOS SUMINISTRADOS
-                        INCLUYEN DATOS DE IDENTIFICACIÓN, UBICACIÓN o datos SOCIOECONÓMICOS.</p>
-                    <p class="arriba_abajo">Declaro que me han sido informados y conozco los derechos que el ordenamiento legal y la
-                        jurisprudencia, conceden al titular de los datos personales y que incluyen entre otras
-                        prerrogativas las que a continuación se relacionan: (i) Conocer, actualizar y rectificar datos
-                        personales frente a los responsables o encargados del tratamiento. Este derecho se podrá
-                        ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que
-                        induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido
-                        autorizado; (ii) solicitar prueba de la autorización otorgada al responsable del tratamiento
-                        salvo cuando expresamente se exceptúe como requisito para el tratamiento; (iii) ser
-                        informado por el responsable del tratamiento o el encargado del tratamiento, previa
-                        solicitud, respecto del uso que le ha dado a mis datos personales; (iv) presentar ante la
-                        Superintendencia de Industria y Comercio quejas por infracciones al régimen de protección
-                        de datos personales; (v) revocar la autorización y/o solicitar la supresión del dato personal
-                        cuando en el tratamiento no se respeten los principios, derechos y garantías
-                        constitucionales y legales, (vi) acceder en forma gratuita a mis datos personales que hayan
-                        sido objeto de Tratamiento.</p>
-                        <p class="arriba_abajo">SI NO ESTÁ DE ACUERDO CON LA POLÍTICA DE TRATAMIENTO DE DATOS DE
-                            VANGO DEBERÁ ABSTENERSE DE USAR LOS CANALES DE COMUNICACIÓN, O DE
-                            QUEDAR VINCULADO POR LOS TÉRMINOS AQUÍ PREVISTOS.</p>
+                    <h4 class="title comment-title"><b style="font-size: 40px; line-height: 60px;">🖖</b></br>Empresa</h4>
+                    <form id="contactform" class="flat-contact-form style2 bg-dark height-small" method="post" action="./contact/contact-process.php">
+                        <div class="field clearfix">      
+                            <div class="wrap-type-input">
+                                              
+                                <div class="input-wrap name">
+                                     <h3 class="Texto_01"><i class="fas fa-user"></i> Nombre de la Empresa</h3>  
+                                    <input type="text" value="" tabindex="1" placeholder="Nombre / Empresa" name="subject" id="subject" required>
+                                </div>
+                                    
+                                <div class="input-wrap email">
+                                     <h3 class="Texto_01"><i class="fas fa-paper-plane"></i> Correo </h3> 
+                                    <input type="email" value="" tabindex="2" placeholder="Ejemplo@ejemplo.com" name="email" id="email" required>
+                                </div>
+                                <div class="input-wrap last Subject">
+                                    <h3 class="Texto_01"><i class="fas fa-phone"></i> Telefono </h3> 
+                                    <input type="text" value="" placeholder="( + 57 )" name="subject" id="subject" >
+                                </div>  
+                            </div>
+                        </div>
+                        <div class="textarea-wrap">
+                             <h3 class="Texto_01"><i class="fas fa-pencil-alt"></i> Mensaje</h3>
+                                <textarea class="type-input" tabindex="3" placeholder="Deja un mensaje" name="message" id="message-contact" required></textarea>
+                            </div>
+                         <div class="submit-wrap">
+                            <button class="flat-button bg-theme">ENVIAR</button>
+                        </div>
                         
-                          
+                    </form><!-- /.comment-form -->                     
                 </div><!-- /#respond -->
             </div><!-- /.container -->   
         </section>
 
-        <!-- Footer -->
-        <footer class="footer">
+         <!-- Footer -->
+         <footer class="footer">
             <div class="footer-widgets margin_top">
                 <div class="container">
                     <div class="row"> 
