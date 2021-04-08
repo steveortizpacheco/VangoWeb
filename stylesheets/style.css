@@ -794,6 +794,9 @@ input[type="color"],
 .contenido_seis{
 	background-color: #fff; border-radius: 92px;height: 571px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); overflow: hidden;
 }
+.contenido_siete{
+	background-color: #fff; border-radius: 92px; box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); overflow: hidden;
+}
 .texto_tarjeta{
 	padding: 83px 10px 10px 40px;font-size: 28px;line-height: 1.2;/*font-weight: 600;*/width: 77%;color: #f60540;
 }
@@ -3569,6 +3572,7 @@ z-index: 999999;
 .row-flat-counter { background-image: url(../images/parallax/about.jpg); }
 
 .parallax2 { background-image: url(../images/parallax/bgteam.jpg); }
+.parallax4 { background-image: url(../images/parallax/a1-4.jpg); }
 
 .parallax-callout { background-image: url(../images/parallax/parallax-pagecallout.jpg); }
 
