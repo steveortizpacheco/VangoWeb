@@ -454,6 +454,12 @@ input[type="color"],
 }
 /* estilos nuevos
 -------------------------------------------------------------- */
+.margen-top{
+	margin-top: 50px;
+}
+.margen-bottom{
+	margin-bottom: 50px;
+}
 .texto_tarjeta_negocio{
 	width: 40% !important;padding-top: 140px !important;position: absolute !important;padding-left: 110px !important; color: #027A69!important;
 }
@@ -717,6 +723,12 @@ input[type="color"],
     padding: 8px 8px 10px 8px;
     border-radius: 106px;
     height: 678px;
+}
+.borde_slide_8{
+	border: 2px dashed #e5e5e5;
+    padding: 8px 8px 10px 8px;
+    border-radius: 106px;
+    
 }
 .borde_imagen{
 	border: 2px dashed #e5e5e5;
@@ -3573,6 +3585,7 @@ z-index: 999999;
 
 .parallax2 { background-image: url(../images/parallax/bgteam.jpg); }
 .parallax4 { background-image: url(../images/parallax/a1-4.jpg); }
+.parallax5 { background-image: url(../images/parallax/a1-5.png); }
 
 .parallax-callout { background-image: url(../images/parallax/parallax-pagecallout.jpg); }
 

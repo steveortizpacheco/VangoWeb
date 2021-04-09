@@ -1124,12 +1124,14 @@
 }
 
 .featured-post .content-post .title-post {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 0.5px;
 }
 
 .featured-post .content-post .title-post a {
-    color: #333333;
+    color: #B41642 !important;
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .featured-post .content-post .title-post a:hover {
