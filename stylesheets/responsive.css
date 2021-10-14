@@ -26,6 +26,11 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.icono-newspaper{
+	
+	margin-top: -15px;
+	margin-bottom: 50px;
+	}
 	.espacio_parrafos_3{
 		margin-top: 30px;  margin-bottom: 100px;
 	}
@@ -35,26 +40,91 @@
 	.margen-bottom-2{
 		margin-bottom: 100px;
 	}
+	.boton-blog-principal {
+		border-bottom: 2px solid #B41642;
+		font-size: 18px;
+		color: #666;
+	}
+	.icono-btn-blog {
+		font-size: 18px;
+		color: #B41642;
+	}
+	.linea_curso {
+		width: 100%;
+		background-attachment: scroll;
+		background-position: 50% 20px;
+		border-radius: 32px;
+		background-repeat: no-repeat;
+	}
+	.degradado_borde-2 {
+		padding: 2px 0px 0px 0px;
+	}
 	
 	.color_h2_8{
 		color: #B41642 !important;
 		text-align: left;
 		line-height: 28px;
+		font-size: 26px;
 	}
 	.espacio_parrafos{
-		margin-bottom: 200px;
+		margin-bottom: 0px;
 	}
 	.color_h2_6 {
 		color: #B41642 !important;
 		text-align: center;
 		line-height: 23px;
+		font-size: 24px;
 	}
-	.texto_imagen_blog{
-		margin-left: 0px;
-		margin-top: 380px;
+	.color_h2_9 {
+		color: #fff !important;
+		text-align: center;
+		line-height: 28px;
+		text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+		font-size: 22px;
 	}
+	.parallax {
+		width: 100%;
+		background-attachment: fixed;
+		background-position: 15% -53px;
+		border-radius: 32px;
+	}
+	.parallax-uno {
+		width: 100%;
+		background-attachment: fixed;
+		background-position: 35% 30px;
+		border-radius: 32px;
+	}
+	.float–derecha{
+		float: none;
+	}
+	.titulo-blog {
+		text-align: center;
+		font-family: 'MuseoModerno', cursive;
+		color: #B41642;
+		margin: -20px 0 0px 0;
+		font-weight: 700;
+		font-size: 40px;
+	}
+	.degradado_borde {
+	
+		padding: 2px 0px 0px 0px;
+	
+	}
+	.texto_imagen_blog {
+		margin-left: 8px;
+		margin-top: 180px;
+	}
+	.texto-blog{
+		font-size: 14px;
+		margin: 20px 0 20px;
+		line-height: 18px;
+	}
+	
 	.margen_bottom{
 		margin-bottom: 170px;
+	}
+	.margen_bottom-2{
+		margin-bottom: 70px;
 	}
 	.contenedor_logo_5 {
 		width: 110px;
